@@ -205,17 +205,4 @@ pip install -r requirements.txt
 }
 ```
 
-### 최종 결과 (Slot-Filling)
-
-```json
-{
-    "nl_question": "What are the names of mountain ranges that include mountains located in India, and how many such mountains are part of each range?",
-    "masked_cypher": "MATCH (n:MountainRange)<-[r0:partOf]-(m0:Mountain)-[r1:locatedIn]->(m1:Country {name: '[LITERAL]'}) WITH n, count(DISTINCT m0) AS num RETURN n.name, num",
-    "predicted_cypher": "MATCH (n:MountainRange)<-[r0:partOf]-(m0:Mountain)-[r1:locatedIn]->(m1:Country {name: 'India'}) WITH n, count(DISTINCT m0) AS num RETURN n.name, num",
-    "gold_cypher": "MATCH (n:MountainRange)<-[r0:partOf]-(m0:Mountain)-[r1:locatedIn]->(m1:Country {name: 'India'}) WITH n, count(DISTINCT m0) AS num RETURN n.name, num",
-    "is_correct": true,
-    "literals": {
-        "India": "India"
-    }
-}
 ```

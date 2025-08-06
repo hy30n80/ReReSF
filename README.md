@@ -59,33 +59,13 @@ cd 2.Retrieval
 ./run.sh
 
 # 2단계: Re-ranker 학습 및 추론
-cd ../3.Re-ranking
+cd 3.Re-ranking
 ./train.sh
 ./run.sh
 
 # 3단계: BERT Slot-Filling 학습 및 추론
-cd ../4.Slot-filling-BERT
+cd 4.Slot-filling-BERT
 ./process_literals.sh
-./train.sh
-./run.sh
-```
-
-### 전체 워크플로우 (T5 기반)
-
-```bash
-# 1단계: Retriever 학습 및 추론
-cd 2.Retrieval
-./train.sh
-./run.sh
-
-# 2단계: Re-ranker 학습 및 추론
-cd ../3.Re-ranking
-./train.sh
-./run.sh
-
-# 3단계: T5 Slot-Filling 학습 및 추론
-cd ../4.Slot-filling-T5
-./preprocess.sh
 ./train.sh
 ./run.sh
 ```
@@ -102,14 +82,14 @@ cd ../4.Slot-filling-T5
 - **모델**: SFR-Embedding-Code-400M_R (Cross-Encoder)
 - **목적**: Top-20 후보들을 재정렬하여 최적의 Top-1 선택
 - **입력**: 자연어 질문 + Top-20 Cypher 후보들
-- **출력**: 재정렬된 Top-1 Cypher 쿼리
+- **출력**: 재정렬된 Top-20 Cypher 쿼리
 
 ### 3단계: Slot-Filling
 - **BERT 버전**: Conditional Span Prediction
 - **T5 버전**: Text-to-Text Generation
 - **목적**: 마스킹된 Cypher 쿼리의 LITERAL 값들을 추출
 - **입력**: 마스킹된 Cypher 쿼리 + 자연어 질문
-- **출력**: 완성된 Cypher 쿼리
+- **출력**: 자연어 질문의 LITERAL 값 위치
 
 ## 🔧 환경 설정
 
@@ -160,49 +140,8 @@ pip install -r requirements.txt
 | tabulate | 0.9.0 | pip |
 | TensorBoard | 2.19.0 | conda |
 | psutil | 5.9.0 | conda |
-
-
-
-## 📈 평가 메트릭
-
-### Retrieval 단계
-- **Recall@K**: Top-K 후보 중 정답 포함 비율
-- **MRR (Mean Reciprocal Rank)**: 정답의 순위 역수 평균
-
-### Re-ranking 단계
-- **Top-1 정확도**: 최종 선택된 쿼리의 정확도
-- **MRR**: 재정렬 후 정답의 순위 역수 평균
-
-### Slot-Filling 단계
-- **Exact Match Ratio (EMR)**: 전체 정확도
-- **Slot-Filling 정확도 (EM)**: LITERAL 값 정확도
-- **실행 쿼리 정확도 (EA)**: 재구성된 Cypher 쿼리 정확도
-- **LITERAL_C별 EMR**: 각 LITERAL 개수별 정확도
-
-## 💡 사용 예시
-
-### 실험 1: 기본 워크플로우 (BERT)
-
-```bash
-# 전체 파이프라인 실행
-cd ReReSF
-
-# 1단계: Retrieval
-cd 2.Retrieval
-./train.sh
-./run.sh
-
-# 2단계: Re-ranking
-cd ../3.Re-ranking
-./train.sh
-./run.sh
-
-# 3단계: BERT Slot-Filling
-cd ../4.Slot-filling-BERT
-./process_literals.sh
-./train.sh
-./run.sh
 ```
+
 
 
 ## 📋 데이터 형식
@@ -280,43 +219,3 @@ cd ../4.Slot-filling-BERT
     }
 }
 ```
-
-## 🔍 모듈별 상세 정보
-
-### 2.Retrieval
-- **모델**: SFR-Embedding-Code-400M_R
-- **방식**: Dense Passage Retrieval
-- **입력**: 자연어 질문
-- **출력**: Top-20 Cypher 후보들
-- **평가**: Recall@K, MRR
-
-### 3.Re-ranking
-- **모델**: SFR-Embedding-Code-400M_R (Cross-Encoder)
-- **방식**: Cross-Encoder Re-ranking
-- **입력**: 자연어 질문 + Top-20 Cypher 후보들
-- **출력**: 재정렬된 Top-1 Cypher 쿼리
-- **평가**: Top-1 정확도, MRR
-
-### 4.Slot-filling-BERT
-- **모델**: BERT-base-cased
-- **방식**: Conditional Span Prediction
-- **입력**: 마스킹된 Cypher + 자연어 질문
-- **출력**: LITERAL 값들의 span 위치
-- **평가**: EM, EA, EMR
-
-### 4.Slot-filling-T5
-- **모델**: T5-base/large
-- **방식**: Text-to-Text Generation
-- **입력**: 자연어 질문 (T5 형식)
-- **출력**: LITERAL 값들의 텍스트
-- **평가**: EM, EA, EMR, Latency, Throughput
-
-
-## 🔄 전체 워크플로우 요약
-
-1. **Retrieval**: 자연어 질문 → Top-20 Cypher 후보 검색
-2. **Re-ranking**: Top-20 후보 → Top-1 최적 후보 선택
-3. **Slot-Filling**: Top-1 마스킹된 쿼리 → 완성된 Cypher 쿼리
-
-이 3단계 파이프라인을 통해 자연어 질문을 정확한 Cypher 쿼리로 변환할 수 있습니다.
-

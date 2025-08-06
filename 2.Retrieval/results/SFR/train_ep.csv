@@ -1,0 +1,2 @@
+Epoch,Recall@1,Recall@5,Recall@10,Recall@20,MRR,Mean Rank,Max Rank,Avg Test Loss
+0,0.0120,0.0497,0.0932,0.1588,0.0424,965.00,9509,21.9236

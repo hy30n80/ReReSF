@@ -1,0 +1,123 @@
+
+--- [추론 테스트 #1] ---
+질문: What is the difference in square kilometers between the area of the Southern Ocean and the Indian Ocean?
+정답 리터럴: ['Southern Ocean', 'Indian Ocean']
+추론 리터럴: ['Southern Ocean', 'Indian Ocean']
+리터럴 일치 여부: ✅
+GOLD CYPHER : MATCH (n:Ocean {name: 'Southern Ocean'}), (m0:Ocean {name: 'Indian Ocean'}) RETURN n.area_km2 - m0.area_km2 AS answer
+PRED CYPHER : MATCH (n:Ocean {name: 'Southern Ocean'}), (m0:Ocean {name: 'Indian Ocean'}) RETURN n.area_km2 - m0.area_km2 AS answer
+쿼리 일치 여부: ✅
+
+--- [추론 테스트 #2] ---
+질문: Provide the names of all rivers that flow into the Arctic Ocean, along with the number of countries each river passes through.
+정답 리터럴: ['Arctic Ocean']
+추론 리터럴: ['Arctic Ocean']
+리터럴 일치 여부: ✅
+GOLD CYPHER : MATCH (n:River)-[r1:flowsInto]->(m1:Ocean {name: 'Arctic Ocean'}) OPTIONAL MATCH (n:River)-[r0:flowsThrough]->(m0:Country) WITH n, count(DISTINCT m0) AS num RETURN n.name, num
+PRED CYPHER : MATCH (n:River)-[r1:flowsInto]->(m1:Ocean {name: 'Arctic Ocean'}) OPTIONAL MATCH (n:River)-[r0:flowsThrough]->(m0:Country) WITH n, count(DISTINCT m0) AS num RETURN n.name, num
+쿼리 일치 여부: ✅
+
+--- [추론 테스트 #3] ---
+질문: What is the difference in square kilometers between the area of the Congo basin and the Tobol basin?
+정답 리터럴: ['Congo basin', 'Tobol basin']
+추론 리터럴: ['Congo basin', 'Tobol basin']
+리터럴 일치 여부: ✅
+GOLD CYPHER : MATCH (n:DrainageBasin {name: 'Congo basin'}), (m0:DrainageBasin {name: 'Tobol basin'}) RETURN n.area_km2 - m0.area_km2 AS answer
+PRED CYPHER : MATCH (n:DrainageBasin {name: 'Congo basin'}), (m0:DrainageBasin {name: 'Tobol basin'}) RETURN n.area_km2 - m0.area_km2 AS answer
+쿼리 일치 여부: ✅
+
+--- [추론 테스트 #4] ---
+질문: What are the names and areas in square kilometers of countries that are located in North America and have Lake Texcoco located in them?
+정답 리터럴: ['North America', 'Lake Texcoco']
+추론 리터럴: ['North America', '']
+리터럴 일치 여부: ❌
+GOLD CYPHER : MATCH (n:Country)-[r0:locatedIn]->(m0:Continent {name: 'North America'}),(n:Country)<-[r1:locatedIn]-(m1:Lake {name: 'Lake Texcoco'}) WITH DISTINCT n RETURN n.name, n.area_km2
+PRED CYPHER : MATCH (n:Country)-[r0:locatedIn]->(m0:Continent {name: 'North America'}),(n:Country)<-[r1:locatedIn]-(m1:Lake {name: ''}) WITH DISTINCT n RETURN n.name, n.area_km2
+쿼리 일치 여부: ❌
+
+--- [추론 테스트 #5] ---
+질문: What are the names of oceans with a maximum vertical depth greater than 7,400 meters?
+정답 리터럴: []
+추론 리터럴: ['7,400']
+리터럴 일치 여부: ❌
+GOLD CYPHER : MATCH (n:Ocean) WITH DISTINCT n WHERE n.max_vertical_depth_m > 7400 RETURN n.name
+PRED CYPHER : MATCH (n:Ocean) WITH DISTINCT n WHERE n.max_vertical_depth_m > 7,400 RETURN n.name
+쿼리 일치 여부: ❌
+
+--- [추론 테스트 #6] ---
+질문: What is the difference in square kilometers between the area of Jordan and that of Paraguay?
+정답 리터럴: ['Jordan', 'Paraguay']
+추론 리터럴: ['Jordan', 'Paraguay']
+리터럴 일치 여부: ✅
+GOLD CYPHER : MATCH (n:Country {name: 'Jordan'}), (m0:Country {name: 'Paraguay'}) RETURN n.area_km2 - m0.area_km2 AS answer
+PRED CYPHER : MATCH (n:Country {name: 'Jordan'}), (m0:Country {name: 'Paraguay'}) RETURN n.area_km2 - m0.area_km2 AS answer
+쿼리 일치 여부: ✅
+
+--- [추론 테스트 #7] ---
+질문: What are the unique official languages of countries that are members of an international organization?
+정답 리터럴: []
+추론 리터럴: []
+리터럴 일치 여부: ✅
+GOLD CYPHER : MATCH (n:Country)-[r0:memberOf]->(m0:InternationalOrganization) WITH DISTINCT n UNWIND n.official_language AS prop RETURN DISTINCT prop
+PRED CYPHER : MATCH (n:Country)-[r0:memberOf]->(m0:InternationalOrganization) WITH DISTINCT n UNWIND n.official_language AS prop RETURN DISTINCT prop
+쿼리 일치 여부: ✅
+
+--- [추론 테스트 #8] ---
+질문: What are the names of international organizations, sorted by their founding year from the earliest to the latest?
+정답 리터럴: []
+추론 리터럴: []
+리터럴 일치 여부: ✅
+GOLD CYPHER : MATCH (n:InternationalOrganization) WITH DISTINCT n RETURN n.name ORDER BY n.founding_year ASC
+PRED CYPHER : MATCH (n:InternationalOrganization) WITH DISTINCT n RETURN n.name ORDER BY n.founding_year ASC
+쿼리 일치 여부: ✅
+
+--- [추론 테스트 #9] ---
+질문: What are the names of individuals who killed someone, provided they are not terrorists by occupation?
+정답 리터럴: ['terrorist']
+추론 리터럴: ['']
+리터럴 일치 여부: ❌
+GOLD CYPHER : MATCH (n:Character)<-[r0:killedBy]-(m0:Character) WITH DISTINCT n WHERE NOT 'terrorist' IN n.occupation RETURN n.name
+PRED CYPHER : MATCH (n:Character)<-[r0:killedBy]-(m0:Character) WITH DISTINCT n WHERE NOT '' IN n.occupation RETURN n.name
+쿼리 일치 여부: ❌
+
+--- [추론 테스트 #10] ---
+질문: What are the names and birth names of characters who have teachers?
+정답 리터럴: []
+추론 리터럴: []
+리터럴 일치 여부: ✅
+GOLD CYPHER : MATCH (n:Character)<-[r0:hasStudent]-(m0:Character) WITH DISTINCT n RETURN n.name, n.birth_name
+PRED CYPHER : MATCH (n:Character)<-[r0:hasStudent]-(m0:Character) WITH DISTINCT n RETURN n.name, n.birth_name
+쿼리 일치 여부: ✅
+
+--- [추론 테스트 #11] ---
+질문: What is the difference in inception years between Known Space and the Ultimate Universe?
+정답 리터럴: ['Known Space', 'Ultimate Universe']
+추론 리터럴: ['Known Space', 'Ultimate Universe']
+리터럴 일치 여부: ✅
+GOLD CYPHER : MATCH (n:FictionalUniverse {name: 'Known Space'}), (m0:FictionalUniverse {name: 'Ultimate Universe'}) RETURN n.inception_year - m0.inception_year AS answer
+PRED CYPHER : MATCH (n:FictionalUniverse {name: 'Known Space'}), (m0:FictionalUniverse {name: 'Ultimate Universe'}) RETURN n.inception_year - m0.inception_year AS answer
+쿼리 일치 여부: ✅
+
+--- [추론 테스트 #12] ---
+질문: What are the names of locations where characters have died?
+정답 리터럴: []
+추론 리터럴: []
+리터럴 일치 여부: ✅
+GOLD CYPHER : MATCH (n:Location)<-[r0:diedIn]-(m0:Character) WITH DISTINCT n RETURN n.name
+PRED CYPHER : MATCH (n:Location)<-[r0:diedIn]-(m0:Character) WITH DISTINCT n RETURN n.name
+쿼리 일치 여부: ✅
+
+--- [추론 테스트 #13] ---
+질문: What are the names of venues that have served as home venues for teams in the Atlantic Division at any time?
+정답 리터럴: ['Atlantic Division']
+추론 리터럴: ['Atlantic Division']
+리터럴 일치 여부: ✅
+GOLD CYPHER : MATCH (n:Venue)<-[r0:hasHomeVenue]-(m0:Team)-[r1:partOfDivision]->(m1:Division {name: 'Atlantic Division'}) WITH DISTINCT n RETURN n.name
+PRED CYPHER : MATCH (n:Venue)<-[r0:hasHomeVenue]-(m0:Team)-[r1:partOfDivision]->(m1:Division {name: 'Atlantic Division'}) WITH DISTINCT n RETURN n.name
+쿼리 일치 여부: ✅
+
+
+==================== 최종 결과 요약 ====================
+Slot Filling 정확도 (EM): 76.92% (10 / 13)
+실행 쿼리 정확도 (EA)  : 76.92% (10 / 13)
+========================================================

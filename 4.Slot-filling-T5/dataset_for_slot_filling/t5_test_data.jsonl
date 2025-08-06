@@ -1,0 +1,301 @@
+{"input": "Question: What are the names of lakes situated in countries through which the Natara River flows, with an area of less than 390,000 square kilometers?", "target": "Answer1: Natara"}
+{"input": "Question: What are the names of all countries?", "target": ""}
+{"input": "Question: What are the names of mountain ranges that include mountains located in India, and how many such mountains are part of each range?", "target": "Answer1: India"}
+{"input": "Question: What are the names of oceans and their areas in square kilometers?", "target": ""}
+{"input": "Question: Which country, through which a river flows into the Pacific Ocean, has the largest area in square kilometers?", "target": "Answer1: Pacific Ocean"}
+{"input": "Question: What is the difference in square kilometers between the area of the Southern Ocean and the Indian Ocean?", "target": "Answer1: Southern Ocean Answer2: Indian Ocean"}
+{"input": "Question: What are the names and capitals of countries where there are mountains that are also located in Peru?", "target": "Answer1: Peru"}
+{"input": "Question: What are the names of countries in which a drainage basin is located, sorted by their area from smallest to largest?", "target": ""}
+{"input": "Question: Provide the names of all mountains that are part of the Severnyy Tanymas range, along with the number of countries each mountain is located in.", "target": "Answer1: Severnyy Tanymas"}
+{"input": "Question: What are the names of lakes situated in the same country as the Bug Basin, with an area greater than 200 square kilometers?", "target": "Answer1: Bug Basin Answer2: 200"}
+{"input": "Question: What are the names of continents where countries are located?", "target": ""}
+{"input": "Question: What are the names and areas in square kilometers of the oceans that the Nile River flows into?", "target": "Answer1: Nile"}
+{"input": "Question: What are the names of mountains that are part of both the Himalayas and the Gurans Himal?", "target": "Answer1: Himalayas Answer2: Gurans Himal"}
+{"input": "Question: What is the area of the Sava Basin in square kilometers?", "target": "Answer1: Sava Basin"}
+{"input": "Question: What are the names of rivers that flow through Russia and are part of the Irtysh basin, sorted by their length from shortest to longest?", "target": "Answer1: Russia Answer2: Irtysh basin"}
+{"input": "Question: What are the names and lengths in kilometers of rivers that pass through countries where the Chinchey mountain is located?", "target": "Answer1: Chinchey"}
+{"input": "Question: What are the names of lakes that rivers flow into?", "target": ""}
+{"input": "Question: Provide the names of all rivers that flow into the Arctic Ocean, along with the number of countries each river passes through.", "target": "Answer1: Arctic Ocean"}
+{"input": "Question: What are the names of continents that have countries containing Beloye Lake, and how many such countries are there in each continent?", "target": "Answer1: Beloye Lake"}
+{"input": "Question: What are the names and lengths in kilometers of rivers that are part of the Lena basin and also flow into the Atlantic Ocean?", "target": "Answer1: Lena basin Answer2: Atlantic Ocean"}
+{"input": "Question: What is the area of the Arctic Ocean in square kilometers?", "target": "Answer1: Arctic Ocean"}
+{"input": "Question: What are the names and capitals of countries in South America that the Baquiá Preto River flows through?", "target": "Answer1: South America Answer2: Baquiá Preto River"}
+{"input": "Question: What are the names and capitals of countries located in Oceania?", "target": "Answer1: Oceania"}
+{"input": "Question: What are the names and areas in square kilometers of drainage basins that the Sangha River is part of?", "target": "Answer1: Sangha"}
+{"input": "Question: What are the names and lengths in kilometers of rivers that flow through the Republic of the Congo?", "target": "Answer1: Republic of the Congo"}
+{"input": "Question: What are the names and capitals of countries where both the Nottaway River basin and Selwyn Lake are located?", "target": "Answer1: Nottaway River basin Answer2: Selwyn Lake"}
+{"input": "Question: What are the names and vertical depths of lakes that are part of the Don basin?", "target": "Answer1: Don basin"}
+{"input": "Question: What are the names and areas in square kilometers of drainage basins that include rivers flowing into the Pacific Ocean?", "target": "Answer1: Pacific Ocean"}
+{"input": "Question: What is the area of Frobisher Lake in square kilometers?", "target": "Answer1: Frobisher Lake"}
+{"input": "Question: What are the names and capitals of countries where a drainage basin that includes Lake Mweru is located?", "target": "Answer1: Lake Mweru"}
+{"input": "Question: What are the names of countries that are situated in both Europe and Asia?", "target": "Answer1: Europe Answer2: Asia"}
+{"input": "Question: Provide the names of countries within the Sava Basin, along with the count of lakes located in each.", "target": "Answer1: Sava Basin"}
+{"input": "Question: What are the names and areas in square kilometers of lakes located in Armenia?", "target": "Answer1: Armenia"}
+{"input": "Question: What is the maximum vertical depth in meters of the Indian Ocean?", "target": "Answer1: Indian Ocean"}
+{"input": "Question: What are the names and capitals of countries where Playgreen Lake is located?", "target": "Answer1: Playgreen Lake"}
+{"input": "Question: What are the names of continents that have countries connected to the Adriatic Sea drainage basin?", "target": "Answer1: Adriatic Sea"}
+{"input": "Question: What are the names of rivers that flow through countries overlapping with the Orinoco Basin, and how many such countries does each river pass through?", "target": ""}
+{"input": "Question: What are the names and areas in square kilometers of drainage basins that Lake Kisale is part of?", "target": "Answer1: Lake Kisale"}
+{"input": "Question: What are the names of countries located in South America, sorted by their area in square kilometers from largest to smallest?", "target": "Answer1: South America"}
+{"input": "Question: What is the difference in square kilometers between the area of the Republic of Ireland and that of Turkey?", "target": "Answer1: Republic of Ireland Answer2: Turkey"}
+{"input": "Question: What are the names and areas in square kilometers of countries where lakes within the Ottawa River drainage basin are located?", "target": "Answer1: Ottawa River drainage basin"}
+{"input": "Question: What is the difference in square kilometers between the area of the Congo basin and the Tobol basin?", "target": "Answer1: Congo basin Answer2: Tobol basin"}
+{"input": "Question: What are the names of oceans that rivers flow into, sorted by their area in square kilometers from smallest to largest?", "target": ""}
+{"input": "Question: What is the difference in average vertical depth between the Pacific Ocean and the Indian Ocean?", "target": "Answer1: Pacific Ocean Answer2: Indian Ocean"}
+{"input": "Question: What are the names and areas in square kilometers of countries where the Tobol basin is located and through which the Yemnaya River flows?", "target": "Answer1: Tobol basin Answer2: Yemnaya"}
+{"input": "Question: How many mountains are either part of the Pamir Mountains or located in the People's Republic of China?", "target": "Answer1: Pamir Mountains Answer2: People's Republic of China"}
+{"input": "Question: What are the names of countries where Supung Lake is located, and how many mountains are in each of those countries?", "target": "Answer1: Supung Lake"}
+{"input": "Question: What are the names of drainage basins located in countries on the African continent, and how many such countries does each basin span?", "target": "Answer1: Africa"}
+{"input": "Question: What are the names and areas in square kilometers of drainage basins located in Namibia?", "target": "Answer1: Namibia"}
+{"input": "Question: Which country has the smallest area in square kilometers?", "target": ""}
+{"input": "Question: What are the names and areas in square kilometers of lakes that rivers flow into?", "target": ""}
+{"input": "Question: What are the names and areas in square kilometers of countries that are located in North America and have Lake Texcoco located in them?", "target": "Answer1: North America Answer2: Lake Texcoco"}
+{"input": "Question: What is the average vertical depth in meters of the Indian Ocean?", "target": "Answer1: Indian Ocean"}
+{"input": "Question: What are the names of countries that rivers flow through?", "target": ""}
+{"input": "Question: Which countries are traversed by rivers that flow into the Pacific Ocean, and how many such rivers pass through each country?", "target": "Answer1: Pacific Ocean"}
+{"input": "Question: List the names of all countries located in Europe, along with the number of lakes situated in each.", "target": "Answer1: Europe"}
+{"input": "Question: What are the names and areas in square kilometers of the countries in which Kangto is located?", "target": "Answer1: Kangto"}
+{"input": "Question: What is the area of South Korea in square kilometers?", "target": "Answer1: South Korea"}
+{"input": "Question: What is the difference in area, in square kilometers, between the Arctic Ocean and the Pacific Ocean?", "target": "Answer1: Arctic Ocean Answer2: Pacific Ocean"}
+{"input": "Question: What are the names of continents where a country containing Lungser Kangri is located?", "target": "Answer1: Lungser Kangri"}
+{"input": "Question: What are the names of all the continents?", "target": ""}
+{"input": "Question: Provide the names of drainage basins along with their areas in square kilometers.", "target": ""}
+{"input": "Question: List the names of all countries in South America, along with the number of mountains located in each.", "target": "Answer1: South America"}
+{"input": "Question: What are the names of rivers that flow into Dongting Lake and are 1,000 kilometers or shorter?", "target": "Answer1: Dongting Lake"}
+{"input": "Question: What are the names of drainage basins that include lakes located in Canada, and how many such lakes are part of each basin?", "target": "Answer1: Canada"}
+{"input": "Question: What is the difference in maximum vertical depth between the Atlantic Ocean and the Arctic Ocean?", "target": "Answer1: Atlantic Ocean Answer2: Arctic Ocean"}
+{"input": "Question: What are the names and areas in square kilometers of the oceans that the Mekong River flows into?", "target": "Answer1: Mekong River"}
+{"input": "Question: What is the difference in maximum vertical depth between the Pacific Ocean and the Indian Ocean?", "target": "Answer1: Pacific Ocean Answer2: Indian Ocean"}
+{"input": "Question: What is the average vertical depth in meters of the Arctic Ocean?", "target": "Answer1: Arctic Ocean"}
+{"input": "Question: What are the names of oceans with a maximum vertical depth greater than 7,400 meters?", "target": ""}
+{"input": "Question: Provide the names of all rivers that flow into the Pacific Ocean, along with the number of countries each river passes through.", "target": "Answer1: Pacific Ocean"}
+{"input": "Question: List the names of all countries located in Africa, along with the number of drainage basins situated in each.", "target": "Answer1: Africa"}
+{"input": "Question: Provide the names of all lakes that are part of the Congo basin, along with the number of countries each lake is located in.", "target": "Answer1: Congo basin"}
+{"input": "Question: What are the names of countries that rivers flow through, sorted by their area in square kilometers from smallest to largest?", "target": ""}
+{"input": "Question: What is the difference in square kilometers between the area of Jordan and that of Paraguay?", "target": "Answer1: Jordan Answer2: Paraguay"}
+{"input": "Question: What are the names and vertical depths of lakes situated in the People's Republic of China that are part of the Yellow River Basin?", "target": "Answer1: People's Republic of China Answer2: Yellow River Basin"}
+{"input": "Question: What are the names and areas in square kilometers of countries through which the Kyrtau River flows and in which the Narva basin is located?", "target": "Answer1: Kyrtau Answer2: Narva basin"}
+{"input": "Question: What are the names of countries where drainage basins are located?", "target": ""}
+{"input": "Question: What are the names of drainage basins located in the same country as Keller Lake, sorted by their area in square kilometers from largest to smallest?", "target": "Answer1: Keller Lake"}
+{"input": "Question: What is the difference in range, in kilometers, between the Antonov An-12 and the ATR 42?", "target": "Answer1: Antonov An-12 Answer2: ATR 42"}
+{"input": "Question: Who are the operators of Aeroflot Flight 3603, and what countries are they from?", "target": "Answer1: Aeroflot Flight 3603"}
+{"input": "Question: What are the names and lengths in meters of aircraft models involved in the 2015 Juba plane crash?", "target": "Answer1: 2015 Juba plane crash"}
+{"input": "Question: Who are the manufacturers of the S-92, and what are their launch years?", "target": "Answer1: S-92"}
+{"input": "Question: What are the names and injury counts of aviation accidents that took off from Yinchuan Hedong International Airport?", "target": "Answer1: Yinchuan Hedong International Airport"}
+{"input": "Question: Provide the names and IATA codes of airports.", "target": ""}
+{"input": "Question: How many survivors were there from FlyMontserrat Flight 107?", "target": "Answer1: FlyMontserrat Flight 107"}
+{"input": "Question: What are the names of airports from which flight accidents have departed?", "target": ""}
+{"input": "Question: Which country is home to the Ulan-Ude Aviation Plant?", "target": "Answer1: Ulan-Ude Aviation Plant"}
+{"input": "Question: When did the Emirates Flight 521 accident occur?", "target": "Answer1: Emirates Flight 521"}
+{"input": "Question: Which country is Girona-Costa Brava Airport located in?", "target": "Answer1: Girona-Costa Brava Airport"}
+{"input": "Question: What are the names of different aircraft models?", "target": ""}
+{"input": "Question: Which country is home to the Novosibirsk Aircraft Production Association?", "target": "Answer1: Novosibirsk Aircraft Production Association"}
+{"input": "Question: What are the names of the operators?", "target": ""}
+{"input": "Question: What is the ICAO code for Iwakuni Air Base?", "target": "Answer1: Iwakuni Air Base"}
+{"input": "Question: What are the names of aircraft models, sorted by wingspan in meters from smallest to largest?", "target": ""}
+{"input": "Question: What is the name of the flight accident headed to Samui Airport that had the fewest survivors?", "target": "Answer1: Samui Airport"}
+{"input": "Question: What are the names and locations of aviation accidents involving the Dash 7 aircraft model?", "target": "Answer1: Dash 7"}
+{"input": "Question: What year did the Novosibirsk Aircraft Production Association launch?", "target": "Answer1: Novosibirsk Aircraft Production Association"}
+{"input": "Question: What are the names and locations of airports from which flight accidents have departed?", "target": ""}
+{"input": "Question: What is the difference in range, in kilometers, between the B-25 Mitchell and the Airbus A340?", "target": "Answer1: B-25 Mitchell Answer2: Airbus A340"}
+{"input": "Question: What are the names of aviation accidents that departed from Zvartnots International Airport, along with the number of survivors in each?", "target": "Answer1: Zvartnots International Airport"}
+{"input": "Question: What are the names of aviation accidents involving the ATR 72 aircraft that were headed to Kinmen Airport, along with the number of survivors in each incident?", "target": "Answer1: ATR 72 Answer2: Kinmen Airport"}
+{"input": "Question: What are the names and locations of airports that were the intended destinations of flight accidents?", "target": ""}
+{"input": "Question: What are the names of the airports?", "target": ""}
+{"input": "Question: What are the names and death tolls of aviation accidents involving a Boeing 737 that were headed to Francisco Bangoy International Airport?", "target": "Answer1: Francisco Bangoy International Airport Answer2: Boeing 737"}
+{"input": "Question: What is the ICAO code for Girona-Costa Brava Airport?", "target": "Answer1: Girona-Costa Brava Airport"}
+{"input": "Question: Who are the manufacturers of the S-92 aircraft model?", "target": "Answer1: S-92"}
+{"input": "Question: How many injuries were reported in the Emirates Flight 521 incident?", "target": "Answer1: Emirates Flight 521"}
+{"input": "Question: Who is the operator with the earliest launch year?", "target": ""}
+{"input": "Question: What year was the Ulan-Ude Aviation Plant launched?", "target": "Answer1: Ulan-Ude Aviation Plant"}
+{"input": "Question: What is the IATA code for Iwakuni Air Base?", "target": "Answer1: Iwakuni Air Base"}
+{"input": "Question: What are the names of international organizations that include countries having diplomatic relations with the Marshall Islands, and how many such countries are members of each organization?", "target": "Answer1: Marshall Islands"}
+{"input": "Question: What are the unique official languages of countries that have diplomatic relations with countries where the Socialist Party is active?", "target": "Answer1: Socialist Party"}
+{"input": "Question: When was ANZUS founded?", "target": "Answer1: ANZUS"}
+{"input": "Question: What are the names of positions that head government organizations in Italy?", "target": "Answer1: Italy"}
+{"input": "Question: What are the names of positions held by politicians from the Party of Regions, and how many such politicians have held each position?", "target": "Answer1: Party of Regions"}
+{"input": "Question: Provide the names of all countries that are members of the World Meteorological Organization, along with the number of countries each has diplomatic relations with.", "target": "Answer1: World Meteorological Organization"}
+{"input": "Question: Who are the politicians that Lithuania has had as head of state, and what is their gender?", "target": "Answer1: Lithuania"}
+{"input": "Question: Provide the names of politicians who have been heads of state of the United States of America at any time, along with the schools they attended.", "target": "Answer1: United States of America"}
+{"input": "Question: What are the names and official languages of countries that are members of the International Telecommunication Union and that the Government & Institutionals Relations ministry of Generalitat de Catalunya belongs to?", "target": "Answer1: International Telecommunication Union Answer2: Government & Institutionals Relations ministry of Generalitat de Catalunya"}
+{"input": "Question: List the names of countries that have diplomatic relations with nations belonging to the International Bank for Reconstruction and Development, and for each, provide the count of such countries they are diplomatically connected with.", "target": "Answer1: International Bank for Reconstruction and Development"}
+{"input": "Question: What are the names and places of death of politicians who headed The Republicans at some point?", "target": "Answer1: The Republicans"}
+{"input": "Question: When was Digital 9 founded?", "target": "Answer1: Digital 9"}
+{"input": "Question: Provide the names of all countries that are members of the Organization for Security and Co-operation in Europe, along with the number of politicians who have served as their head of government at any time.", "target": "Answer1: Organization for Security and Co-operation in Europe"}
+{"input": "Question: What are the unique genders of politicians who have served as heads of government for any country, either currently or in the past?", "target": ""}
+{"input": "Question: What are the unique official languages of countries that are members of an international organization?", "target": ""}
+{"input": "Question: What are the names of government organizations in Romania?", "target": "Answer1: Romania"}
+{"input": "Question: Provide the names of politicians who have been heads of government for any country, along with the schools they attended.", "target": ""}
+{"input": "Question: What are the names of international organizations that include countries having diplomatic relations with the United Arab Emirates, and how many such countries are members of each organization?", "target": "Answer1: United Arab Emirates"}
+{"input": "Question: When was South Korea founded?", "target": "Answer1: South Korea"}
+{"input": "Question: Provide the names of countries that are members of the United Nations Conference on Trade and Development, along with the number of politicians who have served as their head of government at any time.", "target": "Answer1: United Nations Conference on Trade and Development"}
+{"input": "Question: What is the official language of South Korea?", "target": "Answer1: South Korea"}
+{"input": "Question: What are the unique genders of politicians who have been associated with countries as heads of state, either currently or in the past?", "target": ""}
+{"input": "Question: What are the names of countries along with their official languages?", "target": ""}
+{"input": "Question: How many countries either have diplomatic relations with Mali or are members of the North American Free Trade Agreement?", "target": "Answer1: Mali Answer2: North American Free Trade Agreement"}
+{"input": "Question: What are the unique genders of politicians who have founded a political party?", "target": ""}
+{"input": "Question: Which country that is a member of an international organization was founded most recently?", "target": ""}
+{"input": "Question: Provide the names of countries that are members of the International Criminal Court, along with the count of government organizations associated with each.", "target": "Answer1: International Criminal Court"}
+{"input": "Question: Identify the international organizations that have member countries maintaining diplomatic relations with the Marshall Islands, and specify the number of such countries for each organization.", "target": "Answer1: Marshall Islands"}
+{"input": "Question: What is the name of the most recently founded international organization?", "target": ""}
+{"input": "Question: Which countries have diplomatic relations with nations that are members of the International Bank for Reconstruction and Development, and how many such member countries does each of them have relations with?", "target": "Answer1: International Bank for Reconstruction and Development"}
+{"input": "Question: What are the names of international organizations, sorted by their founding year from the earliest to the latest?", "target": ""}
+{"input": "Question: What are the names of international organizations that have member countries maintaining diplomatic relations with the United Arab Emirates, and how many such countries are members of each organization?", "target": "Answer1: United Arab Emirates"}
+{"input": "Question: What is the name and official language of the country to which the President's Secretariat belongs?", "target": "Answer1: President's Secretariat"}
+{"input": "Question: Which country was founded later, Singapore or Nauru?", "target": "Answer1: Singapore Answer2: Nauru"}
+{"input": "Question: How many countries have either the Ministry of Economy, Development and Tourism or the Ministry of National Defence?", "target": "Answer1: Ministry of Economy, Development and Tourism Answer2: Ministry of National Defence"}
+{"input": "Question: When was the Socialist Party of Chile founded?", "target": "Answer1: Socialist Party of Chile"}
+{"input": "Question: Who are the politicians who have been head of state of the United States of America at any time, and what are their countries of citizenship?", "target": "Answer1: United States of America"}
+{"input": "Question: What are the names and schools attended by politicians who have served as the head of state of a country to which the Ministry of National Defence belongs?", "target": "Answer1: Ministry of National Defence"}
+{"input": "Question: What are the names of countries, sorted by their founding dates from the most recent to the oldest?", "target": ""}
+{"input": "Question: How many countries does the Greek Rally operate in or the Ministry of Economy, Development and Tourism belong to?", "target": "Answer1: Greek Rally Answer2: Ministry of Economy, Development and Tourism"}
+{"input": "Question: List the names of countries that are members of the World Meteorological Organization, along with the number of countries that have diplomatic relations with each of them.", "target": "Answer1: World Meteorological Organization"}
+{"input": "Question: What are the names of companies that have 'Novo Nordisk (Germany)' as a subsidiary?", "target": "Answer1: Novo Nordisk (Germany)"}
+{"input": "Question: What are the names of industries in which Canadian companies operate, and how many Canadian companies are there in each industry?", "target": ""}
+{"input": "Question: Who are the founders of companies in the footwear industry, and what are their genders?", "target": "Answer1: footwear industry"}
+{"input": "Question: What are the names of all the countries?", "target": ""}
+{"input": "Question: How many companies are either based in Italy or operate in the ferrous metallurgy industry?", "target": "Answer1: Italy Answer2: ferrous metallurgy"}
+{"input": "Question: What are the names and launch years of companies founded by Marie-Etienne Nitot?", "target": "Answer1: Marie-Etienne Nitot"}
+{"input": "Question: What is Paul Stone's gender?", "target": "Answer1: Paul Stone"}
+{"input": "Question: Who is the youngest individual who has ever been a board member of a company?", "target": ""}
+{"input": "Question: Provide the names of all companies based in the United States of America, along with the number of companies that are their subsidiaries.", "target": "Answer1: United States of America"}
+{"input": "Question: Provide the names of all companies headquartered in the Republic of Ireland, along with the number of industries each operates in.", "target": "Answer1: Republic of Ireland"}
+{"input": "Question: What are the names and launch years of companies that are subsidiaries of a company where Patricia Barbizet has served as a board member?", "target": "Answer1: Patricia Barbizet"}
+{"input": "Question: Provide the names of companies where Amy Chang has served as a board member, along with the number of industries each company operates in.", "target": "Answer1: Amy Chang"}
+{"input": "Question: What are the names of countries where companies in the jewelry industry are headquartered?", "target": "Answer1: jewelry industry"}
+{"input": "Question: What are the names of countries where companies in the electronics industry are based, and how many such companies are there in each country?", "target": "Answer1: electronics"}
+{"input": "Question: What are the names of companies that are subsidiaries of companies based in Australia?", "target": "Answer1: Australia"}
+{"input": "Question: What are the names of industries in which companies based in the Republic of Ireland operate, and how many such companies are there for each industry?", "target": "Answer1: Republic of Ireland"}
+{"input": "Question: Provide the names of all companies operating in the media and entertainment industry, along with the number of founders of each company.", "target": ""}
+{"input": "Question: What are the names and launch years of companies that are founded by Sandra Lerner and have Okena as a subsidiary?", "target": "Answer1: Sandra Lerner Answer2: Okena"}
+{"input": "Question: What are the names and launch years of companies that are subsidiaries of Twinkl?", "target": "Answer1: Twinkl"}
+{"input": "Question: Who are the founders of companies that are subsidiaries of HSBC?", "target": "Answer1: HSBC"}
+{"input": "Question: Provide the names of all companies operating in the film industry, along with the number of individuals who have served as board members for each company, whether currently or in the past.", "target": "Answer1: film industry"}
+{"input": "Question: Provide the names of companies operating in the hotel industry, along with the number of countries they are based in.", "target": "Answer1: hotel industry"}
+{"input": "Question: What are the names of industries in which Foxconn operates?", "target": "Answer1: Foxconn"}
+{"input": "Question: What are the names of individuals born after April 21st, 1962?", "target": ""}
+{"input": "Question: What are the names and launch years of companies founded by Jérôme Hatt?", "target": "Answer1: Jérôme Hatt"}
+{"input": "Question: What are the names and launch years of companies that operate in the public relations industry?", "target": "Answer1: public relations"}
+{"input": "Question: What is Henry VIII of England's gender?", "target": "Answer1: Henry VIII of England"}
+{"input": "Question: Who are the individuals that Tennman Records was founded by, and where were they born?", "target": "Answer1: Tennman Records"}
+{"input": "Question: Provide the names of companies operating in the chemical industry, along with the number of individuals who have served on their boards, either currently or in the past.", "target": "Answer1: chemical industry"}
+{"input": "Question: Who are the founders of companies that are based in England?", "target": "Answer1: England"}
+{"input": "Question: What are the names of companies that are subsidiaries and were launched before the year 1868?", "target": "Answer1: 1868"}
+{"input": "Question: What are the names of companies that have subsidiaries based in the People's Republic of China, and how many such subsidiaries does each have?", "target": "Answer1: People's Republic of China"}
+{"input": "Question: What are the names of the industries?", "target": ""}
+{"input": "Question: Where was Henry VIII of England born?", "target": "Answer1: Henry VIII of England"}
+{"input": "Question: What is the name of the company that is a subsidiary of another company and was launched most recently?", "target": ""}
+{"input": "Question: What are the names of companies that are subsidiaries of The Coca-Cola Company?", "target": "Answer1: The Coca-Cola Company"}
+{"input": "Question: What are the industries in which companies founded by Harry Williams operate?", "target": "Answer1: Harry Williams"}
+{"input": "Question: What are the names of companies that have subsidiaries and were launched before the year 1907?", "target": "Answer1: 1907"}
+{"input": "Question: What are the names and launch years of companies that are subsidiaries of a company founded by Larry Rossy?", "target": "Answer1: Larry Rossy"}
+{"input": "Question: What are the industries in which a company with Vivek Sankaran as a board member operates?", "target": "Answer1: Vivek Sankaran"}
+{"input": "Question: What are the names of the locations?", "target": ""}
+{"input": "Question: Provide the names of all characters from the Future Diary universe, along with the number of characters that each of them have killed.", "target": "Answer1: Future Diary universe"}
+{"input": "Question: Provide the names and creators of characters who have been killed by another character.", "target": ""}
+{"input": "Question: What are the unique genders of characters who were killed by a student of Subhuti?", "target": "Answer1: Subhuti"}
+{"input": "Question: What are the names of locations where characters from The Simpsons universe have died?", "target": "Answer1: The Simpsons universe"}
+{"input": "Question: What are the names of organizations that include a character whose father is Ultimate Wolverine?", "target": "Answer1: Ultimate Wolverine"}
+{"input": "Question: What are the names of characters from the Cosmere universe who do not work as therapists?", "target": "Answer1: Cosmere Answer2: therapist"}
+{"input": "Question: What are the unique birth names of characters who have a mother?", "target": ""}
+{"input": "Question: What are the unique genders of characters who are members of an organization?", "target": ""}
+{"input": "Question: What are the names of organizations that have members who are students of Stick, and how many such students are members of each organization?", "target": "Answer1: Stick"}
+{"input": "Question: What are the names of organizations located in New New York?", "target": "Answer1: New New York"}
+{"input": "Question: What are the names of organizations located in the place where Jon Snow died?", "target": "Answer1: Jon Snow"}
+{"input": "Question: What are the names of locations where organizations from the World of Ice and Fire are based, and how many such organizations are based in each location?", "target": "Answer1: World of Ice and Fire"}
+{"input": "Question: Who are the unique creators of characters who have been killed by another character?", "target": ""}
+{"input": "Question: What are the names of characters who are fathers?", "target": ""}
+{"input": "Question: What are the names of individuals who killed someone, provided they are not terrorists by occupation?", "target": "Answer1: terrorist"}
+{"input": "Question: What are the unique countries of citizenship of individuals who are mothers?", "target": ""}
+{"input": "Question: What are the names of locations where characters were born?", "target": ""}
+{"input": "Question: What are the names of locations where organizations that Eddison Tollett is a member of are based, and how many such organizations are based in each location?", "target": "Answer1: Eddison Tollett"}
+{"input": "Question: What are the names and birth names of characters who have teachers?", "target": ""}
+{"input": "Question: What are the names of characters who died?", "target": ""}
+{"input": "Question: What are the names of characters who have a mother?", "target": ""}
+{"input": "Question: What are the names of fictional universes that include a character who has Yukiteru Amano as a student?", "target": "Answer1: Yukiteru Amano"}
+{"input": "Question: What are the names of organizations that originate from the Known Space universe?", "target": "Answer1: Known Space"}
+{"input": "Question: What are the names of organizations?", "target": ""}
+{"input": "Question: What are the names of locations where characters from the Earth-167 universe were born, and how many such characters were born in each location?", "target": "Answer1: Earth-167"}
+{"input": "Question: What are the names of characters who killed individuals from the Cosmere universe, and how many such victims from the Cosmere are there for each of these characters?", "target": "Answer1: Cosmere"}
+{"input": "Question: Provide the names of all characters from the Marvel Universe, along with the number of students each one has.", "target": "Answer1: Marvel Universe"}
+{"input": "Question: What are the names of fictional universes along with their inception years?", "target": ""}
+{"input": "Question: Who are the unique creators of characters whose father is Bandit Heeler?", "target": "Answer1: Bandit Heeler"}
+{"input": "Question: What is the difference in inception years between Known Space and the Ultimate Universe?", "target": "Answer1: Known Space Answer2: Ultimate Universe"}
+{"input": "Question: What are the names of characters who belong to organizations from the Donald Duck universe, and how many such organizations is each character a member of?", "target": "Answer1: Donald Duck universe"}
+{"input": "Question: List the names of characters who have students from the Journey to the West universe, and for each, provide the number of such students they have.", "target": "Answer1: Journey to the West universe"}
+{"input": "Question: What are the names of locations where organizations are based?", "target": ""}
+{"input": "Question: What are the names of organizations that include a student of Stick as a member?", "target": "Answer1: Stick"}
+{"input": "Question: What are the names of locations where characters have died?", "target": ""}
+{"input": "Question: What are the names of organizations from the World of Ice and Fire universe located in Kirky Hassary?", "target": "Answer1: Kirky Hassary Answer2: World of Ice and Fire"}
+{"input": "Question: What are the names of film series that include movies originating from the Czech Republic?", "target": "Answer1: Czech Republic"}
+{"input": "Question: What is the name of the movie that is part of a film series and has the longest runtime?", "target": ""}
+{"input": "Question: What are the names and original languages of movies that come from Turkey?", "target": "Answer1: Turkey"}
+{"input": "Question: What are the names of film series that include movies originating from Germany, and how many such German movies are part of each series?", "target": "Answer1: Germany"}
+{"input": "Question: What are the names of all movies produced by Anonymous Content, and how many awards has each of them received?", "target": "Answer1: Anonymous Content"}
+{"input": "Question: What are the names of film series?", "target": ""}
+{"input": "Question: What are the names and global box office earnings of movies that are part of the Batman in film series and have received the Golden Trailer Awards?", "target": "Answer1: Batman in film Answer2: Golden Trailer Awards"}
+{"input": "Question: Which country is Mirage Enterprises based in?", "target": "Answer1: Mirage Enterprises"}
+{"input": "Question: What are the names and filming locations of movies that belong to the absurdist fiction genre?", "target": "Answer1: absurdist fiction"}
+{"input": "Question: What are the names of film series that include movies released in France, and how many such movies are part of each series?", "target": "Answer1: France"}
+{"input": "Question: What are the names of movies that have received an award?", "target": ""}
+{"input": "Question: List the names of all movies that are part of the Rocky series, along with the number of awards each has received.", "target": "Answer1: Rocky"}
+{"input": "Question: Who is the cast member of the movie Argo who passed away the earliest?", "target": "Answer1: Argo"}
+{"input": "Question: What are the names of movies produced by Jersey Group, along with their global box office earnings in USD?", "target": "Answer1: Jersey Group"}
+{"input": "Question: What are the genres of movies produced by American Zoetrope, and how many such movies exist for each genre?", "target": "Answer1: American Zoetrope"}
+{"input": "Question: What are the names of awards received by romance films, and how many romance films have received each award?", "target": "Answer1: romance film"}
+{"input": "Question: What are the names of film series that include a movie which has won the Academy Award for Best Director?", "target": "Answer1: Academy Award for Best Director"}
+{"input": "Question: What are the names of film series that include movies produced by Sony Pictures Animation?", "target": "Answer1: Sony Pictures Animation"}
+{"input": "Question: What are the names of directors who passed away on November 20th, 2006, and directed a movie released in Canada?", "target": "Answer1: Canada"}
+{"input": "Question: What are the names of genres associated with movies that originate from Germany?", "target": "Answer1: Germany"}
+{"input": "Question: List the names of all comedy drama movies and the number of cast members in each.", "target": "Answer1: comedy drama"}
+{"input": "Question: What are the names of genres for movies released in Spain, and how many such movies belong to each genre?", "target": "Answer1: Spain"}
+{"input": "Question: What are the names and runtimes in minutes of movies produced by Jersey Group?", "target": "Answer1: Jersey Group"}
+{"input": "Question: How many movies have the genre 'comedy film' or are part of the Pirates of the Caribbean series?", "target": "Answer1: comedy film Answer2: Pirates of the Caribbean"}
+{"input": "Question: What are the names of film series that include movies originating from Mexico, and how many such movies are part of each series?", "target": "Answer1: Mexico"}
+{"input": "Question: What are the names of film series that include movies released in Italy, and how many such movies are part of each series?", "target": "Answer1: Italy"}
+{"input": "Question: What are the names of movies produced by Anonymous Content, and how many directors does each have?", "target": "Answer1: Anonymous Content"}
+{"input": "Question: What are the names of the different genres?", "target": ""}
+{"input": "Question: What are the unique genders of individuals who wrote Another Round?", "target": "Answer1: Another Round"}
+{"input": "Question: What are the names of movies that are part of a film series and are not originally in German?", "target": "Answer1: German"}
+{"input": "Question: What are the names and countries of production companies that have produced movies originating from Japan?", "target": "Answer1: Japan"}
+{"input": "Question: What are the names and filming locations of movies that won the Vancouver Film Critics Circle Award for Best Actress and were produced by Pathé?", "target": "Answer1: Vancouver Film Critics Circle Award for Best Actress Answer2: Pathé"}
+{"input": "Question: What are the names and original languages of movies that have won the Academy Award for Best Writing, Adapted Screenplay and were released in South Korea?", "target": "Answer1: Academy Award for Best Writing, Adapted Screenplay Answer2: South Korea"}
+{"input": "Question: List the names of all movies that are part of the Alien series, along with the number of genres each movie belongs to.", "target": "Answer1: Alien"}
+{"input": "Question: What are the names of the awards?", "target": ""}
+{"input": "Question: Who is the oldest player drafted by the Miami Heat?", "target": "Answer1: Miami Heat"}
+{"input": "Question: What are the names of teams in the Western Conference?", "target": "Answer1: Western Conference"}
+{"input": "Question: What are the names of teams in the Southeast Division and who are their head coaches?", "target": "Answer1: Southeast Division"}
+{"input": "Question: What are the names and owners of teams that have used Toyota Coliseum as their home venue at any time?", "target": "Answer1: Toyota Coliseum"}
+{"input": "Question: Which teams currently call Ball Arena their home venue?", "target": "Answer1: Ball Arena"}
+{"input": "Question: What is Scott Padgett's country of citizenship?", "target": "Answer1: Scott Padgett"}
+{"input": "Question: List the names of all NBA teams.", "target": ""}
+{"input": "Question: List all the awards.", "target": ""}
+{"input": "Question: When was the Golden State Warriors team founded?", "target": "Answer1: Golden State Warriors"}
+{"input": "Question: What are the names and founding years of teams that have had a player in the point forward position at any time?", "target": "Answer1: point forward"}
+{"input": "Question: What are the names and owners of teams that have had the Denver Coliseum as their home venue at any time?", "target": "Answer1: Denver Coliseum"}
+{"input": "Question: What are the names of positions played by players drafted by the Brooklyn Nets, and how many such players are there for each position?", "target": "Answer1: Brooklyn Nets"}
+{"input": "Question: What are the unique handedness types of players drafted by teams in the Atlantic Division?", "target": "Answer1: Atlantic Division"}
+{"input": "Question: Who is the player associated with a team that has used Gainbridge Fieldhouse as their home venue, and has the earliest recorded date of death?", "target": "Answer1: Gainbridge Fieldhouse"}
+{"input": "Question: Which NBA team was established the earliest?", "target": ""}
+{"input": "Question: What are the names and head coaches of teams that have the Denver Coliseum as their home venue?", "target": "Answer1: Denver Coliseum"}
+{"input": "Question: What are the names of the venues?", "target": ""}
+{"input": "Question: What are the names and head coaches of teams that have used the Toyota Coliseum as their home venue at some point?", "target": "Answer1: Toyota Coliseum"}
+{"input": "Question: What are the names of divisions that include a team which drafted Keith Booth?", "target": "Answer1: Keith Booth"}
+{"input": "Question: Who is the head coach of the Brooklyn Nets?", "target": "Answer1: Brooklyn Nets"}
+{"input": "Question: Which conference does the Memphis Grizzlies belong to?", "target": "Answer1: Memphis Grizzlies"}
+{"input": "Question: What year were the Brooklyn Nets founded?", "target": "Answer1: Brooklyn Nets"}
+{"input": "Question: What are the names of players who have received an award?", "target": ""}
+{"input": "Question: Who is the head coach of the Golden State Warriors?", "target": "Answer1: Golden State Warriors"}
+{"input": "Question: What are the names of all players?", "target": ""}
+{"input": "Question: What are the unique genders of NBA players?", "target": ""}
+{"input": "Question: What are the names of players who were drafted by a team, sorted by their mass in kilograms from heaviest to lightest?", "target": ""}
+{"input": "Question: What are the names and owners of the teams that Barry Orms has played for, whether in the past or currently?", "target": "Answer1: Barry Orms"}
+{"input": "Question: Who are the players who have received the Silbernes Lorbeerblatt award, and which schools did they attend?", "target": "Answer1: Silbernes Lorbeerblatt"}
+{"input": "Question: What are the unique schools attended by players who were drafted by the Miami Heat?", "target": "Answer1: Miami Heat"}
+{"input": "Question: What is Scott Padgett's weight in kilograms?", "target": "Answer1: Scott Padgett"}
+{"input": "Question: What are the names of the positions?", "target": ""}
+{"input": "Question: What are the names of players drafted by the New York Knicks, along with the schools they attended?", "target": "Answer1: New York Knicks"}
+{"input": "Question: What are the names of venues that have served as home venues for teams in the Atlantic Division at any time?", "target": "Answer1: Atlantic Division"}
+{"input": "Question: What are the names of players born before January 22, 1950, who were drafted by a team that has played at Hy-Vee Arena?", "target": "Answer1: Hy-Vee Arena"}
+{"input": "Question: What are the names of power forwards who have won the Princess of Asturias Award for Sports and attended Lausanne Collegiate School?", "target": "Answer1: power forward Answer2: Princess of Asturias Award for Sports Answer3: Lausanne Collegiate School"}
+{"input": "Question: Provide the names of all players drafted by the Oklahoma City Thunder, along with the number of awards each player has received.", "target": "Answer1: Oklahoma City Thunder"}

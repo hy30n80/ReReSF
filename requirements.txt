@@ -1,0 +1,19 @@
+# Core ML packages
+torch==2.6.0
+torchvision==0.21.0
+torchaudio==2.6.0
+transformers==4.53.2
+sentence-transformers==5.0.0
+
+# Data processing
+numpy==1.26.4
+tqdm==4.67.1
+tabulate==0.9.0
+
+# Monitoring and utilities
+tensorboard==2.19.0
+psutil==5.9.0
+
+# Optional: For Jupyter notebooks
+jupyter
+ipykernel 

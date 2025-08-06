@@ -63,6 +63,10 @@ tensorboard_logs/
 # Model outputs (keep folder, exclude contents)
 **/models/*
 !**/models/.gitkeep
+
+# Training checkpoints and results
+**/checkpoint-*/
+**/results/checkpoint-*/
 # results/
 # outputs/
 # checkpoints/

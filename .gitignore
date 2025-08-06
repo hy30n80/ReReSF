@@ -25,6 +25,7 @@ MANIFEST
 *.pth
 *.pt
 *.ckpt
+*.safetensors
 
 # Jupyter Notebook
 .ipynb_checkpoints
